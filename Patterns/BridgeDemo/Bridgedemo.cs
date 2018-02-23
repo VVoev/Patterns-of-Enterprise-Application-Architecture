@@ -1,4 +1,6 @@
-﻿using BridgeDemo.Models_1demo_;
+﻿using BridgeDemo.Model_3demo_;
+using BridgeDemo.Models_1demo_;
+using BridgeDemo.Models_2demo_;
 using System;
 using System.Collections.Generic;
 
@@ -24,6 +26,52 @@ namespace BridgeDemo
             GenerateReport(printer);
         }
 
+        public static void ThirdDemo()
+        {
+            var living = new Cat();
+            IPresenter tiger = new Tiger();
+            IPresenter zebra = new Zebra();
+            tiger.Introduce(8, "Djini");
+
+            living.presenter = tiger;
+            living.presenter.Introduce(22, "Qnko");
+
+            living.presenter = zebra;
+            living.presenter.Introduce(15, "Nina");
+        }
+
+        public static void SecondDemo()
+        {
+            IMessageSender email = new EmailSender();
+            IMessageSender queue = new MSMQSender();
+            IMessageSender web = new WebServiceSender();
+
+            Message message = new SystemMessage();
+            message.Subject = "Test Message";
+            message.Body = "Hi, This is a Test Message";
+
+            message.MessageSender = email;
+            message.Send();
+
+            message.MessageSender = queue;
+            message.Send();
+
+            message.MessageSender = web;
+            message.Send();
+
+            UserMessage usermsg = new UserMessage();
+            usermsg.Subject = "Test Message";
+            usermsg.Body = "Hi, This is a Test Message";
+            usermsg.UserComments = "I hope you are well";
+
+            usermsg.MessageSender = email;
+            usermsg.Send();
+
+            Console.ReadKey();
+        }
+
+
+        #region GenerateReport
         private static void GenerateReport(List<Printer> printer)
         {
             foreach (var item in printer)
@@ -32,5 +80,6 @@ namespace BridgeDemo
             }
             Console.ReadKey();
         }
+        #endregion
     }
 }

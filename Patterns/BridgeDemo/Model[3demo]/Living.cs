@@ -1,17 +1,7 @@
 ﻿using System;
 
-namespace BridgeDemo
+namespace BridgeDemo.Model_3demo_
 {
-    class Startup
-    {
-        static void Main(string[] args)
-        {
-            Bridgedemo.FirstDemo();
-            Bridgedemo.SecondDemo();
-            Bridgedemo.ThirdDemo();
-        }
-    }
-
     public abstract class Living
     {
         public IPresenter presenter { get; set; }
@@ -48,6 +38,4 @@ namespace BridgeDemo
             Console.WriteLine($"I like to eat grass {this.GetType().Name} with name:{name} and years{age}");
         }
     }
-
-
 }

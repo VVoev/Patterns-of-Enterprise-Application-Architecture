@@ -44,6 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bridgedemo.cs" />
+    <Compile Include="Models[1demo]\Book.cs" />
+    <Compile Include="Models[1demo]\CrazyFormater.cs" />
+    <Compile Include="Models[1demo]\Faq.cs" />
+    <Compile Include="Models[1demo]\IFormater.cs" />
+    <Compile Include="Models[1demo]\Printer.cs" />
+    <Compile Include="Models[1demo]\ReverseFormatter.cs" />
+    <Compile Include="Models[1demo]\StandartFormatter.cs" />
+    <Compile Include="Models[1demo]\TermPaper.cs" />
+    <Compile Include="Models[2demo]\EmailSender.cs" />
+    <Compile Include="Models[2demo]\IMessageSender.cs" />
+    <Compile Include="Models[2demo]\Message.cs" />
+    <Compile Include="Models[2demo]\MSMQSender.cs" />
+    <Compile Include="Models[2demo]\SystemMessage.cs" />
+    <Compile Include="Models[2demo]\UserMessage.cs" />
+    <Compile Include="Models[2demo]\WebServiceSender.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
