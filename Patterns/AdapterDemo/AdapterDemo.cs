@@ -1,6 +1,7 @@
 ﻿using AdapterDemo.Models;
 using AdapterDemo.Models_2demo_;
 using AdapterDemo.Models_3demo_;
+using AdapterDemo.Models_4demo_;
 using System;
 
 namespace AdapterDemo
@@ -25,6 +26,16 @@ namespace AdapterDemo
 
             Compound ethanol = new RichCompound("Ethanol");
             ethanol.Display();
+        }
+
+        public static void FourthDemo()
+        {
+            IMediaPlayer player = new MP3();
+            player.Play("file.mp3");
+            player = new FormatAdapter(new MP4());
+            player.Play("file.mp4");
+            player = new FormatAdapter(new VLC());
+            player.Play("file.avi");
         }
 
         public static void SecondDemo()

@@ -12,13 +12,14 @@ namespace AdapterDemo.Models
         public RichCompound(string name)
           : base(name)
         {
+            _bank = new ChemicalDatabank();
         }
 
         public override void Display()
         {
             // The Adaptee
 
-            _bank = new ChemicalDatabank();
+            
 
             _boilingPoint = _bank.GetCriticalPoint(_chemical, "B");
             _meltingPoint = _bank.GetCriticalPoint(_chemical, "M");

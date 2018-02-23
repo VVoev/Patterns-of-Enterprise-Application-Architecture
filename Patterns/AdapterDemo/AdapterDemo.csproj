@@ -57,6 +57,12 @@
     <Compile Include="Models[3demo]\IPerson.cs" />
     <Compile Include="Models[3demo]\Manager.cs" />
     <Compile Include="Models[3demo]\ManagerAdapter.cs" />
+    <Compile Include="Models[4demo]\FormatAdapter.cs" />
+    <Compile Include="Models[4demo]\IMediaPackage.cs" />
+    <Compile Include="Models[4demo]\IMediaPlayer.cs" />
+    <Compile Include="Models[4demo]\MP3.cs" />
+    <Compile Include="Models[4demo]\MP4.cs" />
+    <Compile Include="Models[4demo]\VLC.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
