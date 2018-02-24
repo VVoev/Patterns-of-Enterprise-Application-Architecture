@@ -59,11 +59,14 @@
     <Compile Include="Models[2demo]\SystemMessage.cs" />
     <Compile Include="Models[2demo]\UserMessage.cs" />
     <Compile Include="Models[2demo]\WebServiceSender.cs" />
+    <Compile Include="Model[3demo]\Living.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
