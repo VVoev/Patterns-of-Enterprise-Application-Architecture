@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuildeDemo.BuilderDemo" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuilderDemo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildeDemo.ClubSandwitchBuilder" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>ClubSandwitchBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildeDemo.MySandwitchBuilder" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MySandwitchBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildeDemo.Sandwich" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAEAUAAAQAIAAAAAAAAIAAAAAIBAAA=</HashCode>
+      <FileName>Sandwich.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildeDemo.SandwitchBuilder" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAAAAAACQAA=</HashCode>
+      <FileName>SandwitchBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildeDemo.SandwithcMaker" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>SandwithcMaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildeDemo.Startup" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BuildeDemo.MeatType" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAACAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Sandwich.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BuildeDemo.CheeseType" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAQCAAQAA=</HashCode>
+      <FileName>Sandwich.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BuildeDemo.BreadType" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAACAAAA=</HashCode>
+      <FileName>Sandwich.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
