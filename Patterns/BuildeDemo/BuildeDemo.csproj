@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuilderDemo.cs" />
+    <Compile Include="Models[1demo]\ClubSandwitchBuilder.cs" />
+    <Compile Include="Models[1demo]\MySandwitchBuilder.cs" />
+    <Compile Include="Models[1demo]\Sandwich.cs" />
+    <Compile Include="Models[1demo]\SandwitchBuilder.cs" />
+    <Compile Include="Models[1demo]\SandwithcMaker.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
