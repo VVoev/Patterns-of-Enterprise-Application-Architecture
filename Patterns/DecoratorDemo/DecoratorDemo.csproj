@@ -44,6 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Decorator.cs" />
+    <Compile Include="Models[1demo]\Cheese.cs" />
+    <Compile Include="Models[1demo]\ChiliSauce.cs" />
+    <Compile Include="Models[1demo]\LargePizza.cs" />
+    <Compile Include="Models[1demo]\MediumPizza.cs" />
+    <Compile Include="Models[1demo]\Pepperenni.cs" />
+    <Compile Include="Models[1demo]\Pizza.cs" />
+    <Compile Include="Models[1demo]\PizzaDecorator.cs" />
+    <Compile Include="Models[1demo]\CreamySauce.cs" />
+    <Compile Include="Models[1demo]\SmallPizza.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -36,11 +36,16 @@ namespace DecoratorDemo
             pizzas = new List<Pizza> { small, medium, large };
             PrintPizzaPrices(pizzas);
 
+            small = new CreamySauce(small);
+            medium = new CreamySauce(medium);
+            large = new CreamySauce(large);
 
+            pizzas = new List<Pizza> { small, medium, large };
+            PrintPizzaPrices(pizzas);
 
-
-
-
+            small = new ChiliSauce(small);
+            pizzas = new List<Pizza> { small};
+            PrintPizzaPrices(pizzas);
 
 
 
