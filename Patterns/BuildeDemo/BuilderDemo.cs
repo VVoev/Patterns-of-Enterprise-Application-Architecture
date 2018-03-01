@@ -1,4 +1,8 @@
-﻿namespace BuildeDemo
+﻿using Builder;
+using Builder.Builders;
+using Builder.Directors;
+
+namespace BuildeDemo
 {
     public static class BuilderDemo
     {
@@ -15,6 +19,24 @@
 
             sandwitch1.Display();
             sandwitch2.Display();
+        }
+
+        public static void SecondDemo()
+        {
+            VehicleConstructor constructor = new VehicleConstructor();
+
+            // And we can choose concrete builder
+            VehicleBuilder builder = new ScooterBuilder();
+            constructor.Construct(builder);
+            builder.Vehicle.Show();
+
+            builder = new CarBuilder();
+            constructor.Construct(builder);
+            builder.Vehicle.Show();
+
+            builder = new MotorCycleBuilder();
+            constructor.Construct(builder);
+            builder.Vehicle.Show();
         }
     }
 }

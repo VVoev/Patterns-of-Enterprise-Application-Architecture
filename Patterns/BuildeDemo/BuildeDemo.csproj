@@ -44,11 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuilderDemo.cs" />
-    <Compile Include="Models[1demo]\ClubSandwitchBuilder.cs" />
-    <Compile Include="Models[1demo]\MySandwitchBuilder.cs" />
-    <Compile Include="Models[1demo]\Sandwich.cs" />
-    <Compile Include="Models[1demo]\SandwitchBuilder.cs" />
-    <Compile Include="Models[1demo]\SandwithcMaker.cs" />
+    <Compile Include="Models[1demo]\concrete\ClubSandwitchBuilder.cs" />
+    <Compile Include="Models[1demo]\concrete\MySandwitchBuilder.cs" />
+    <Compile Include="Models[1demo]\product\Sandwich.cs" />
+    <Compile Include="Models[1demo]\abstract\SandwitchBuilder.cs" />
+    <Compile Include="Models[1demo]\director\SandwithcMaker.cs" />
+    <Compile Include="Models[2demo]\concrete\CarBuilder.cs" />
+    <Compile Include="Models[2demo]\concrete\MotorCycleBuilder.cs" />
+    <Compile Include="Models[2demo]\concrete\ScooterBuilder.cs" />
+    <Compile Include="Models[2demo]\product\Vehicle.cs" />
+    <Compile Include="Models[2demo]\abstract\VehicleBuilder.cs" />
+    <Compile Include="Models[2demo]\director\VehicleConstructor.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

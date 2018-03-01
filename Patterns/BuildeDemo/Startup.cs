@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             BuilderDemo.FirstDemo();
+
+            BuilderDemo.SecondDemo();
         }
     }
 }
