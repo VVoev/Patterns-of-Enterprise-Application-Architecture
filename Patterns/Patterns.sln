@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryPattern", "FactoryPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternDemo", "FactoryPatternDemo\FactoryPatternDemo.csproj", "{F50526FE-5107-47E1-A992-8ED96EABBB4F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlyweightPattern", "FlyweightPattern", "{D3B1B5E9-5076-45A4-A819-CC76AB2CA023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{45C9687E-E658-4F87-90F3-A0B6F0BDDB37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{F50526FE-5107-47E1-A992-8ED96EABBB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50526FE-5107-47E1-A992-8ED96EABBB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50526FE-5107-47E1-A992-8ED96EABBB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C9687E-E658-4F87-90F3-A0B6F0BDDB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C9687E-E658-4F87-90F3-A0B6F0BDDB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C9687E-E658-4F87-90F3-A0B6F0BDDB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C9687E-E658-4F87-90F3-A0B6F0BDDB37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +103,6 @@ Global
 		{DE2F0A38-B749-4332-9170-81A0E122ECFB} = {CA708216-D377-4D4A-A0D4-A5351C9323DC}
 		{62B21114-4BEB-46B0-80B9-D429FE972BF9} = {567B72F6-D248-43B3-B7D3-730B4301B1C6}
 		{F50526FE-5107-47E1-A992-8ED96EABBB4F} = {5EB2525F-E165-4C61-A076-5970AD69CE48}
+		{45C9687E-E658-4F87-90F3-A0B6F0BDDB37} = {D3B1B5E9-5076-45A4-A819-CC76AB2CA023}
 	EndGlobalSection
 EndGlobal
