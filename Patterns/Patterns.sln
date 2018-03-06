@@ -47,6 +47,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterpeterPattern", "Interp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterDemo", "InterpreterDemo\InterpreterDemo.csproj", "{3D122A59-87D1-47DD-8357-B5BFC83B33DB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IteratorAkaCursorPattern", "IteratorAkaCursorPattern", "{AE12F4F0-D5D8-45BC-B5EC-DA2CBEB0D761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItteratorPatternDemo", "ItteratorPatternDemo\ItteratorPatternDemo.csproj", "{734198C5-88EC-462B-83FE-88F5274FACCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{3D122A59-87D1-47DD-8357-B5BFC83B33DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D122A59-87D1-47DD-8357-B5BFC83B33DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D122A59-87D1-47DD-8357-B5BFC83B33DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734198C5-88EC-462B-83FE-88F5274FACCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734198C5-88EC-462B-83FE-88F5274FACCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734198C5-88EC-462B-83FE-88F5274FACCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734198C5-88EC-462B-83FE-88F5274FACCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,5 +121,6 @@ Global
 		{F50526FE-5107-47E1-A992-8ED96EABBB4F} = {5EB2525F-E165-4C61-A076-5970AD69CE48}
 		{45C9687E-E658-4F87-90F3-A0B6F0BDDB37} = {D3B1B5E9-5076-45A4-A819-CC76AB2CA023}
 		{3D122A59-87D1-47DD-8357-B5BFC83B33DB} = {C5BA7045-F0BB-473C-846F-38F6DF2CF45D}
+		{734198C5-88EC-462B-83FE-88F5274FACCE} = {AE12F4F0-D5D8-45BC-B5EC-DA2CBEB0D761}
 	EndGlobalSection
 EndGlobal
