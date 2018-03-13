@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models[1demo]\SampleData.cs" />
+    <Compile Include="Models[2demo]\TableTennisBlade.cs" />
+    <Compile Include="Presentor.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
