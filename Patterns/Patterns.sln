@@ -75,6 +75,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrototypePattern", "Prototy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDemo", "PrototypeDemo\PrototypeDemo.csproj", "{EF44746E-AD0B-4CEE-A7FC-448A5327ABEC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProxyPattern", "ProxyPattern", "{8F23413F-7D9B-4383-A3AF-3AF19C494DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{09068121-EF44-424E-B2FD-EABC66258674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,10 @@ Global
 		{EF44746E-AD0B-4CEE-A7FC-448A5327ABEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF44746E-AD0B-4CEE-A7FC-448A5327ABEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF44746E-AD0B-4CEE-A7FC-448A5327ABEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09068121-EF44-424E-B2FD-EABC66258674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09068121-EF44-424E-B2FD-EABC66258674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09068121-EF44-424E-B2FD-EABC66258674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09068121-EF44-424E-B2FD-EABC66258674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,5 +184,6 @@ Global
 		{0E7F7409-D82A-42ED-9764-3D90B980EB9D} = {978DAB27-116E-4ACB-9F4A-B93C20C8A9C0}
 		{4A780A59-37B8-453E-8EF5-667B04B8462E} = {E3DE802C-1A3D-4577-A7D4-A87CA416ADC9}
 		{EF44746E-AD0B-4CEE-A7FC-448A5327ABEC} = {92C35B41-6437-4157-819B-1A15C6B0B180}
+		{09068121-EF44-424E-B2FD-EABC66258674} = {8F23413F-7D9B-4383-A3AF-3AF19C494DB3}
 	EndGlobalSection
 EndGlobal
