@@ -97,6 +97,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelViewPresenterDemo", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVPSample", "MVPSample\MVPSample.csproj", "{48EFE2F4-AECC-40BA-BE62-1266647C9B62}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StrategyPattern", "StrategyPattern", "{1EB6BDEF-566E-4EC9-A001-DB01F3B17263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDemo", "StrategyDemo\StrategyDemo.csproj", "{B241C5D9-4D81-40C4-B021-ED17E448E772}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +203,10 @@ Global
 		{48EFE2F4-AECC-40BA-BE62-1266647C9B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48EFE2F4-AECC-40BA-BE62-1266647C9B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48EFE2F4-AECC-40BA-BE62-1266647C9B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B241C5D9-4D81-40C4-B021-ED17E448E772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B241C5D9-4D81-40C4-B021-ED17E448E772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B241C5D9-4D81-40C4-B021-ED17E448E772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B241C5D9-4D81-40C4-B021-ED17E448E772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,6 +236,7 @@ Global
 		{F57D645A-E625-4F85-987F-273B902E4781} = {EA45E3AF-8768-40B5-9FA3-56F6B929994A}
 		{0B14D5DA-18F4-4C8A-94AD-EECFC3B8E8E5} = {4F32344E-E481-4374-900C-EE4A05130199}
 		{48EFE2F4-AECC-40BA-BE62-1266647C9B62} = {4F32344E-E481-4374-900C-EE4A05130199}
+		{B241C5D9-4D81-40C4-B021-ED17E448E772} = {1EB6BDEF-566E-4EC9-A001-DB01F3B17263}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37671A39-1ED1-4020-BF04-86C98A8CDE94}
