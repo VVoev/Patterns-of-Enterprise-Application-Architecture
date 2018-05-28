@@ -8,6 +8,7 @@ namespace MediatorDemo.Models_2Demo_
         public abstract void Register(Participant participant);
 
         public abstract void Send(string from, string to, string message);
+
     }
 
     public class ChatRoom : AbstractChatRoom
