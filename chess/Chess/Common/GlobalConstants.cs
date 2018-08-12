@@ -9,6 +9,9 @@ namespace Common
         public const int STANDARTGAMETOTALBOARDROW = 8;
         public const int STANDARTGAMETOTALBOARDCOL = 8;
 
+        public const int STANDARTGAMENUMBEROFPLAYERS = 2;
+
+
         public const int MIN_ROWSVALUE_BOARD = 1;
         public const int MAX_ROWSVALUE_BOARD = 8;
         public const char MIN_COLSVALUE_BOARD = 'a';

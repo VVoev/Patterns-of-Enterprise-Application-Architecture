@@ -1,12 +1,13 @@
-﻿using Common;
+﻿using Board.Contracts;
+using Common;
 using Figures;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Board
+namespace BoardProject
 {
-    class Board
+    public class Board : IBoard
     {
         private readonly IFigure[,] board;
 
@@ -62,5 +63,11 @@ namespace Board
             }
         }
 
+        public IFigure GetFigureAtPosition(Position position)
+        {
+            int arrRow = this.GetArrayRow(position.Row);
+            int arrCol = this.GetArrayCol(position.Col);
+            return this.board[arrRow, arrCol];
+        }
     }
 }

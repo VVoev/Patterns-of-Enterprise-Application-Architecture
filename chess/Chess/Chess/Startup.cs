@@ -1,4 +1,4 @@
-﻿using System;
+﻿using ChessFacadee;
 
 namespace Chess
 {
@@ -6,7 +6,7 @@ namespace Chess
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ChessFacade.Start();
         }
     }
 }

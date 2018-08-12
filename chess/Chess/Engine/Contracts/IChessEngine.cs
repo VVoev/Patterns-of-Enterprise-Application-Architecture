@@ -1,15 +1,17 @@
-﻿using System;
+﻿using Engine.Initializations;
+using Players.Contracts;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Engine.Contracts
 {
     public interface IChessEngine
     {
-        void Initialize();
+        void Initialize(IGameInitializationStrategy gameInitializationStrategy);
 
         void Start();
 
         void WinningConditions();
+
+        IEnumerable<IPlayer> Players { get; }
     }
 }

@@ -6,7 +6,7 @@ namespace Common
 {
     public enum ChessColor
     {
+        Black,
         White,
-        Black
     }
 }

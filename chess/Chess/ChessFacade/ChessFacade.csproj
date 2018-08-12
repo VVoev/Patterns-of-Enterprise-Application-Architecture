@@ -5,10 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Board\Board.csproj" />
-    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Engine\Engine.csproj" />
     <ProjectReference Include="..\InputProviders\InputProviders.csproj" />
-    <ProjectReference Include="..\Players\Players.csproj" />
     <ProjectReference Include="..\UI\UI.csproj" />
   </ItemGroup>
 

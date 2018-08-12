@@ -6,6 +6,10 @@ namespace Common
 {
     public struct Position
     {
+        public static Position FromArrayCoordinates(int arrRow,int arrCol,int totalRows)
+        {
+            return new Position(totalRows - arrRow, (char)(arrCol + 'a'));
+        }
         public Position(int row, char col)
             : this()
         {

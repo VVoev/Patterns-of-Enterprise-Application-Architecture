@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Figures\Figures.csproj" />
+    <ProjectReference Include="..\Board\Board.csproj" />
   </ItemGroup>
 
 </Project>
