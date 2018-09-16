@@ -63,6 +63,11 @@
     <Compile Include="Models[4demo]\MP3.cs" />
     <Compile Include="Models[4demo]\MP4.cs" />
     <Compile Include="Models[4demo]\VLC.cs" />
+    <Compile Include="Models[5demo]\HdmiPort.cs" />
+    <Compile Include="Models[5demo]\IConvertor.cs" />
+    <Compile Include="Models[5demo]\IHDMIPort.cs" />
+    <Compile Include="Models[5demo]\Plugger.cs" />
+    <Compile Include="Models[5demo]\UsbPort.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

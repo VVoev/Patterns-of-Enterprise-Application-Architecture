@@ -2,6 +2,7 @@
 using AdapterDemo.Models_2demo_;
 using AdapterDemo.Models_3demo_;
 using AdapterDemo.Models_4demo_;
+using AdapterDemo.Models_5demo_;
 using System;
 
 namespace AdapterDemo
@@ -74,6 +75,15 @@ namespace AdapterDemo
             Console.WriteLine($"{managerOrEmployeee.GetType().Name} have a salary of {managerOrEmployeee.CalculateSalary()} Euro");
             Console.WriteLine($"{employeeOrManager.GetType().Name} have a salary of {employeeOrManager.CalculateSalary()} Euro");
 
+        }
+
+        public static void FifthDemo()
+        {
+            IConvertor port = new HdmiPort();
+            port.CatchAndDisplay();
+
+            port = new Plugger(new UsbPort());
+            port.CatchAndDisplay();
         }
     }
 }
