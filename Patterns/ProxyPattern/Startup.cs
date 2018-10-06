@@ -11,7 +11,7 @@ namespace ProxyPattern
         {
             // FirstDemo();
 
-           //SecondDemo();
+            SecondDemo();
         }
 
         private static void SecondDemo()
@@ -141,7 +141,11 @@ namespace ProxyPattern
     #region SecondDemo
     public class MachineProxy : ICofeeMAchine, ICofeeState
     {
-        private CofeeMachine cm = new CofeeMachine();
+        private CofeeMachine cm;
+        public MachineProxy()
+        {
+            cm = new CofeeMachine();
+        }
         public string currentState()
         {
             return cm.currentState();
